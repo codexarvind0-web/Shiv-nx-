@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SHIV NX | Exclusive Men’s Wear, Nagpur – Since 2010</title>
+<meta name="description" content="SHIV NX – Exclusive men’s wear in Nagpur since 2010. Jeans, Jodhpuri, Kurta, Shirts. Latest collection, premium styles, best prices.">
+<link id="siteIcon" rel="icon" href="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#0e0b10;--bg2:#161119;--card:#1c1620;--gold:#d4af6a;--gold2:#f1d9a0;--text:#efe9e1;--mute:#a79f9a;
+--line:rgba(212,175,106,.25);--rowline:rgba(255,255,255,.07);--navbg:rgba(14,11,16,.92);--footer:#0a080c;
+--hero:radial-gradient(ellipse at 50% 35%,rgba(212,175,106,.16),transparent 60%),linear-gradient(180deg,#0e0b10,#1a1220 60%,#0e0b10);
+--fill:linear-gradient(135deg,#f1d9a0,#d4af6a);--fillink:#1a1220;--ovbg:rgba(14,11,16,.95);--shadow:rgba(0,0,0,.5);
+--photoop:.2;--tshadow:0 2px 18px rgba(0,0,0,.85)
+}
+[data-theme="light"]{
+--bg:#faf6ee;--bg2:#f1eadb;--card:#ffffff;--gold:#a77c2c;--gold2:#7a5a1c;--text:#2a2229;--mute:#6d6468;
+--line:rgba(167,124,44,.35);--rowline:rgba(0,0,0,.08);--navbg:rgba(250,246,238,.93);--footer:#efe6d3;
+--hero:radial-gradient(ellipse at 50% 35%,rgba(212,175,106,.28),transparent 62%),linear-gradient(180deg,#fbf7ef,#f3ead8 60%,#faf6ee);
+--fill:linear-gradient(135deg,#c9a050,#a77c2c);--fillink:#ffffff;--ovbg:rgba(255,255,255,.95);--shadow:rgba(80,60,20,.18);
+--photoop:.22;--tshadow:0 2px 14px rgba(255,255,255,.9)
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-weight:300;line-height:1.75;overflow-x:hidden;transition:background .4s,color .4s}
+a{color:inherit;text-decoration:none}
+h1,h2{font-family:'Cinzel Decorative',serif;font-weight:700;letter-spacing:.05em}
+h3{font-family:'Playfair Display',serif;font-weight:700;letter-spacing:.03em}
+.wrap{max-width:1180px;margin:auto;padding:0 22px}
+section{padding:90px 0}
+.eyebrow{font-family:'Great Vibes',cursive;color:var(--gold);font-size:1.9rem;text-align:center;line-height:1.2}
+.title{font-size:clamp(1.6rem,4vw,2.5rem);text-align:center;margin:6px 0 14px;color:var(--text)}
+.rule{width:70px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:0 auto 50px}
+nav{position:fixed;top:0;left:0;right:0;z-index:50;padding:16px 0;transition:.4s}
+nav.s{background:var(--navbg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:10px 0}
+nav .wrap{display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:'Cinzel Decorative',serif;font-size:1.45rem;color:var(--gold);letter-spacing:.18em;font-weight:900}
+.links{display:flex;gap:28px;font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;font-weight:400}
+.links a:hover{color:var(--gold)}
+.tools{display:flex;align-items:center;gap:12px}
+.theme{width:42px;height:42px;border-radius:50%;border:1px solid var(--gold);background:transparent;color:var(--gold);font-size:1.15rem;cursor:pointer;transition:.3s;display:grid;place-items:center}
+.theme:hover{background:var(--gold);color:var(--fillink);transform:rotate(25deg)}
+.menu{display:none;background:none;border:0;color:var(--gold);font-size:1.7rem;cursor:pointer}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden;background:var(--hero);padding:110px 0 70px;transition:background .4s}
+.herobg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:var(--photoop);z-index:0;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 55%,transparent 100%);mask-image:linear-gradient(180deg,#000 0%,#000 55%,transparent 100%)}
+.hero:before{content:"";position:absolute;inset:18px;border:1px solid var(--line);pointer-events:none;z-index:2}
+.hero .wrap{position:relative;z-index:3;display:flex;flex-direction:column;align-items:center}
+.hero .wrap>*{opacity:0;animation:up 1s forwards}
+.hero .wrap>*:nth-child(1){animation-delay:.1s}.hero .wrap>*:nth-child(2){animation-delay:.5s}.hero .wrap>*:nth-child(3){animation-delay:.8s}
+@keyframes up{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+.herologo{width:min(78vw,460px);height:auto;display:block;opacity:1;filter:drop-shadow(0 8px 26px rgba(0,0,0,.55))}
+.hero .tag{font-family:'Great Vibes',cursive;font-weight:400;font-size:clamp(2.2rem,7vw,3.8rem);color:var(--gold2);line-height:1.2;margin:18px 0 28px;text-shadow:var(--tshadow)}
+.btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+.btn{padding:14px 30px;border:1px solid var(--gold);font-family:'Jost',sans-serif;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;transition:.3s;display:inline-flex;align-items:center;gap:8px;cursor:pointer;background:transparent;color:var(--text);font-weight:500}
+.btn.fill{background:var(--fill);color:var(--fillink)}
+.btn:hover{transform:translateY(-3px);box-shadow:0 10px 30px var(--shadow)}
+.btn:not(.fill):hover{background:var(--gold);color:var(--fillink)}
+.strip{border-block:1px solid var(--line);background:var(--bg2);overflow:hidden;white-space:nowrap;padding:16px 0}
+.strip div{display:inline-block;animation:mv 30s linear infinite;color:var(--gold);letter-spacing:.35em;font-size:.8rem;text-transform:uppercase;font-weight:500}
+@keyframes mv{to{transform:translateX(-50%)}}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.about p{color:var(--mute);margin-bottom:16px;font-size:1.02rem}
+.about h3{font-size:1.9rem;margin-bottom:16px;color:var(--gold2);font-style:italic;line-height:1.3}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+.stat{border:1px solid var(--line);padding:18px 8px;text-align:center;background:var(--card)}
+.stat b{display:block;font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--gold)}
+.stat span{font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--mute)}
+.frame{position:relative;aspect-ratio:4/5;border:1px solid var(--gold);padding:12px}
+.frame img{width:100%;height:100%;object-fit:cover}
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.cat{background:var(--card);border:1px solid var(--line);padding:44px 18px;text-align:center;transition:.35s;position:relative;overflow:hidden}
+.cat:hover{border-color:var(--gold);transform:translateY(-8px);box-shadow:0 18px 40px var(--shadow)}
+.cat i{font-style:normal;font-size:2rem;display:block;margin-bottom:12px}
+.cat h3{font-size:1.25rem;color:var(--gold2)}
+.cat small{color:var(--mute);letter-spacing:.2em;font-size:.68rem;text-transform:uppercase}
+.bgx{background:var(--bg2)}
+.grid{columns:4 220px;column-gap:16px}
+.item{break-inside:avoid;margin-bottom:16px;position:relative;overflow:hidden;border:1px solid var(--line);background:var(--card)}
+.item img{width:100%;display:block;transition:transform .6s;min-height:120px}
+.item:hover img{transform:scale(1.07)}
+.item .ov{position:absolute;inset:auto 0 0 0;padding:34px 12px 12px;background:linear-gradient(transparent,var(--ovbg));text-align:center;opacity:0;transform:translateY(12px);transition:.35s}
+.item:hover .ov{opacity:1;transform:none}
+.ov a{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold2);border:1px solid var(--gold);padding:7px 16px;display:inline-block;font-weight:500}
+@media(hover:none){.item .ov{opacity:1;transform:none;padding-top:20px}}
+.why{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.w{text-align:center;padding:30px 16px;border-top:1px solid var(--gold)}
+.w h3{font-size:1.15rem;margin-bottom:8px;color:var(--gold2)}
+.w p{color:var(--mute);font-size:.92rem}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.box{background:var(--card);border:1px solid var(--line);padding:38px}
+.box h3{color:var(--gold2);margin-bottom:18px;font-size:1.5rem}
+.row{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--rowline);font-size:.98rem}
+.row b{color:var(--gold);min-width:90px;font-weight:500;letter-spacing:.12em;font-size:.74rem;text-transform:uppercase;padding-top:4px}
+.hours .row{justify-content:space-between}
+.today{color:var(--gold);font-weight:500}
+.social{display:flex;gap:12px;margin-top:22px;flex-wrap:wrap}
+footer{border-top:1px solid var(--line);text-align:center;padding:50px 22px 90px;background:var(--footer)}
+footer .logo{display:block;margin-bottom:8px}
+footer p{color:var(--mute);font-size:.85rem}
+.float{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;flex-direction:column;gap:10px}
+.float a{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-size:1.4rem;box-shadow:0 6px 20px var(--shadow)}
+.float .wa{background:#25d366}.float .cl{background:var(--fill);color:var(--fillink)}
+.rv{opacity:0;transform:translateY(30px);transition:1s}.rv.on{opacity:1;transform:none}
+@media(max-width:860px){
+section{padding:64px 0}
+.links{position:fixed;inset:0 0 0 30%;background:var(--bg2);flex-direction:column;justify-content:center;align-items:center;gap:30px;transform:translateX(100%);transition:.4s;border-left:1px solid var(--line)}
+.links.o{transform:none}.menu{display:block;z-index:70}
+.about,.contact{grid-template-columns:1fr}
+.cats,.why{grid-template-columns:repeat(2,1fr)}
+.box{padding:26px}
+}
+</style>
+</head>
+<body>
+
+<nav id="nav"><div class="wrap">
+  <a href="#home" class="logo">SHIV NX</a>
+  <div class="links" id="links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#collection">Collection</a>
+    <a href="#gallery">Gallery</a>
+    <a href="https://wa.me/917620643048?text=Hi%2C%20SHIV%20NX" target="_blank" rel="noopener">Contact</a>
+  </div>
+  <div class="tools">
+    <button class="theme" id="theme" aria-label="Light / Dark mode" title="Light / Dark">☀</button>
+    <button class="menu" id="menu" aria-label="Menu">☰</button>
+  </div>
+</div></nav>
+
+<header class="hero" id="home">
+  <div class="herobg" id="herobg"></div>
+  <div class="wrap">
+    <img class="herologo" id="heroLogo" src="" alt="SHIV NX logo">
+    <div class="tag">Exclusive Men’s Wear</div>
+    <div class="btns">
+      <a class="btn fill" href="#gallery">Shop Now</a>
+      <a class="btn" href="tel:+917620643048">📞 Call</a>
+      <a class="btn" href="https://wa.me/917620643048?text=Hi%2C%20SHIV%20NX" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn" href="https://maps.app.goo.gl/1JzpXw4qH1DAc4gE9?g_st=ac" target="_blank" rel="noopener">📍 Direction</a>
+    </div>
+  </div>
+</header>
+
+<div class="strip"><div id="mq"></div></div>
+
+<section id="about"><div class="wrap about">
+  <div class="rv">
+    <div class="eyebrow" style="text-align:left">Our Story</div>
+    <h3 style="margin-top:8px">Dressing Nagpur’s Gentlemen Since 2010</h3>
+    <p>SHIV NX is a name Nagpur trusts for exclusive men’s wear. From sharp everyday shirts and jeans to elegant kurtas and regal Jodhpuri suits, every piece is chosen for fit, fabric and finish.</p>
+    <p>Run by Pawan Kukreja and Nihal Kukreja, our promise is simple: premium style at honest prices, with the personal service of a family store.</p>
+    <div class="stats">
+      <div class="stat"><b>2010</b><span>Established</span></div>
+      <div class="stat"><b>4+</b><span>Categories</span></div>
+      <div class="stat"><b>7/7</b><span>Days Open</span></div>
+    </div>
+  </div>
+  <div class="frame rv"><img id="aboutImg" alt="SHIV NX collection"></div>
+</div></section>
+
+<section class="bgx" id="collection"><div class="wrap">
+  <div class="eyebrow">What We Offer</div>
+  <h2 class="title">Our Collection</h2><div class="rule"></div>
+  <div class="cats">
+    <a class="cat rv" href="https://wa.me/917620643048?text=Hi%20SHIV%20NX%2C%20I%20want%20to%20see%20Jeans" target="_blank"><i>👖</i><h3>Jeans</h3><small>Enquire →</small></a>
+    <a class="cat rv" href="https://wa.me/917620643048?text=Hi%20SHIV%20NX%2C%20I%20want%20to%20see%20Jodhpuri" target="_blank"><i>🤵</i><h3>Jodhpuri</h3><small>Enquire →</small></a>
+    <a class="cat rv" href="https://wa.me/917620643048?text=Hi%20SHIV%20NX%2C%20I%20want%20to%20see%20Kurta" target="_blank"><i>🧥</i><h3>Kurta</h3><small>Enquire →</small></a>
+    <a class="cat rv" href="https://wa.me/917620643048?text=Hi%20SHIV%20NX%2C%20I%20want%20to%20see%20Shirts" target="_blank"><i>👔</i><h3>Shirt</h3><small>Enquire →</small></a>
+  </div>
+</div></section>
+
+<section id="gallery"><div class="wrap">
+  <div class="eyebrow">Latest Arrivals</div>
+  <h2 class="title">The Lookbook</h2><div class="rule"></div>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section class="bgx"><div class="wrap">
+  <div class="eyebrow">The SHIV NX Promise</div>
+  <h2 class="title">Why Choose Us</h2><div class="rule"></div>
+  <div class="why">
+    <div class="w rv"><h3>Premium Quality</h3><p>Carefully selected fabrics and finishing.</p></div>
+    <div class="w rv"><h3>Latest Styles</h3><p>Fresh collection, trending designs.</p></div>
+    <div class="w rv"><h3>Best Prices</h3><p>Luxury look without the luxury markup.</p></div>
+    <div class="w rv"><h3>15+ Years Trust</h3><p>Serving Nagpur since 2010.</p></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="eyebrow">Visit Us</div>
+  <h2 class="title">Get In Touch</h2><div class="rule"></div>
+  <div class="contact">
+    <div class="box rv">
+      <h3>Contact</h3>
+      <div class="row"><b>Nihal</b><a href="tel:+917620643048">+91 76206 43048</a></div>
+      <div class="row"><b>Pawan</b><a href="tel:+919372701932">+91 93727 01932</a></div>
+      <div class="row"><b>Email</b><a href="mailto:kukrejanihal1@gmail.com">kukrejanihal1@gmail.com</a></div>
+      <div class="row"><b>Address</b><span>Opp. Gandhibagh Garden, Near IDBI Bank, Nagpur</span></div>
+      <div class="social">
+        <a class="btn fill" href="https://wa.me/917620643048?text=Hi%2C%20SHIV%20NX" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn" href="https://www.instagram.com/shiv__nx__nagpur" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn" href="https://maps.app.goo.gl/1JzpXw4qH1DAc4gE9?g_st=ac" target="_blank" rel="noopener">Direction</a>
+        <a class="btn" href="https://share.google/2s2nmG6zbutV4AGQH" target="_blank" rel="noopener">★ Google Review</a>
+        <a class="btn" href="mailto:kukrejanihal1@gmail.com">Mail</a>
+      </div>
+    </div>
+    <div class="box hours rv">
+      <h3>Opening Hours</h3>
+      <div id="hrs"></div>
+    </div>
+  </div>
+</div></section>
+
+<footer>
+  <a href="#home" class="logo">SHIV NX</a>
+  <p>Exclusive Men’s Wear · Gandhibagh, Nagpur · Since 2010</p>
+  <p style="margin-top:14px">© <span id="yr"></span> SHIV NX. All rights reserved.</p>
+</footer>
+
+<div class="float">
+  <a class="wa" href="https://wa.me/917620643048?text=Hi%2C%20SHIV%20NX" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+  <a class="cl" href="tel:+917620643048" aria-label="Call">📞</a>
+</div>
+
+<script>// नया SHIV NX लोगो — वेबसाइट के कोड में ही एम्बेड है
+const LOGO_DATA = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABUOEBIQDRUSERIYFhUZHzQiHx0dH0AuMCY0TENQT0tDSUhUXnlmVFlyWkhJaY9qcnyAh4iHUWWUn5ODnXmEh4L/2wBDARYYGB8cHz4iIj6CVklWgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoL/wgARCAH0AfQDASIAAhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAMEBQECBv/EABgBAQEBAQEAAAAAAAAAAAAAAAACAQME/9oADAMBAAIQAxAAAAHGAAAAAAAAAAAOnFqbGf3Xszvz/r6LuMDv0Hpvzcf03k+afRR7mA16+qCeGs4AAAAAAAAAAAAAAAAAAAAdOJ9GWTc0KU1JJmwmjDTasReFZ675M99jN9c5xnfXgWZqDN1ZMbuboVlgoc1q25Sd5WAAAAAAAAAAAAAAADoSa07ma0+TLSy6nNd8l4AAAOnEsmKz150AAAB7tUmbr1Kt2No81aFZCKwAAAAAAAAAAAAehes3o31QrUc3vhy57w0AAAA16NyNn8Y3dfQ4fdLGMLwAAAACXQyuzt2lfmncl78dJAAAAAAAAAAHs5udpc6s5PjlZ3yVgAAAAAE8fhge9NVR51VHSQAAAAAFuoxtZUmtzvATQ9IDQAAAAAAA6d24qvOlLi5DQAAAAAAAHdzF04qlWKkNAAAAAAALVXuPosKzrc6+b5J46TwaAAAAAAaUFqKhoubgVgAAAAAABL7xzQmq87n7neW6UEejjB87OZ0iF3lYAAAAAA7wetjGljdrC+lzJ3L53nWQAAAAEkexOyZNzNnQ6SAAAAAAOnJ5tuNo5eriFivJHWBp3nstQeeTunlfTUorFe/HWAAAAAAHrz0ubPzejyqnDr5FOC5AAAAs7UVPlWf57zrIAAAAB6t4pSWoBP41Zr3PBFxuPF2cbrHqWD3c+WvancH2hpyWKwzeQevP1iyvoa9zjQ+p+sVV6uQjQAAAHe+em1m9u8ryB1gAABYr687c+fv5064dJAAAA7ejjnbtGFuO81Ctpw1ud2/MF6a8Yf0nzlx1znSfoveNZ43Uh8Os8uVL+L0Nutx6WKtWe5zvG9j3MNyk3NWhFozua7y8AAAA7r49uKjg08zcCsAA9fQ5N3nWT4cuQ0AAAPZapWK86O1nJfHnH0ijqcOleSSKd785tZfSaw7RqaEVzhfy3m1V7Q18jfnbMNiHh0r++93a2PJH35BWJ4O4sVrtLNCsAAAd4NvHvw8rpjrAAGvXv4/K4R1gAAABYrz5sXk3AJYvfrN8/SfMaEtmrLW49Ya8vm5zz125/TSx+fPeVm62T2nv0+DvxvqCavyuOjPldc8rlfpzjW6gGrVWXk7GKwAAACzcy9vleG7zrAD34t41MHYxosOkAAAAJfPMeRoBbqW52p3vms2eZujx6Re/MmVkze/PXlr+a/OPXuXfo9eerc81+V2YfMDastO925WIOxxXipNDchWdlhkxGNAAAANfI0YqrBdpbgVndDP153mTrZM7wdJAAAA9+O8AAHryLNaeDNXaXTUljm4da1PWxekW/MfM314jvXNuBJx6MqWv152JaXrcki753A0A9+OnHeAAAAC7Ss5tnN1smdC59buFvxtTK1cpvBcgAAAAAAASeOe8eBqXWxLPOtPMuRTdJ5debVpW41XVG8HSE0XvEY0AAB3gAAAAJYvWNjF3sKL4OketvD14qvQu0mcF4AAAAAAAA9eQABYs50sV48z+6mWHkE04XIHrnAAAAAAAAAA7zp9BgfR/O8r8DrHdPL0J3zSv5+aFyAdHEnSJN3ECx0rLXSp250pL/vNzWt5MvmqMprZW5K87Gbn6FhG/P+9CnSoXamk1eZuY0zMzml4KC9zVJb4VVnhXT8IUvNRvXkAAevM2PpPmfpvmedeB1nlynZxazNfIined6SO449282ivcKXNSMz0ku5WbXnNx0sdYaFudxGpnbkfdGzjEadPUFy92dzeTUdWoPEuomxWxQd5WO+9HGXzbzCuNFi/O5K/cMRu0zNeuVnO27s7jLNbcDS1VvY08HXx4vyOkPXkbmNqUuV1e871h78STut7s+eVfNpYu093MKfCGeA+nryRcOmBzvPTyvb+Bvcqy8faxazT28Talj5WrlW29H53d5VlZv0GB0zh250827QnQrGhn35b0Xvzxv5uL6DC6z5v5+jqhtYcp9PRkk4X81y7U9EWPfqhgKwBp5uxGw5tuprgrANHkF/leP1zrHe8Y2LWHtceliloeWfOQ/RZl5Q9c9XP0Xn348/X5zl313593cy1zqri6+TeaenmWOdVszQz+k93MLQNPJ1Y+VYN2nodopRm4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";
+document.getElementById("heroLogo").src=LOGO_DATA;
+document.getElementById("siteIcon").href=LOGO_DATA;
+
+// ===== Light / Dark theme =====
+const root=document.documentElement,tbtn=document.getElementById("theme");
+function setTheme(m){
+  root.setAttribute("data-theme",m);
+  tbtn.textContent=m==="dark"?"☀":"🌙";
+  try{localStorage.setItem("shivnx-theme",m)}catch(e){}
+}
+let saved=null;try{saved=localStorage.getItem("shivnx-theme")}catch(e){}
+setTheme(saved||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"));
+tbtn.onclick=()=>setTheme(root.getAttribute("data-theme")==="dark"?"light":"dark");
+
+// ===== Photos =====
+const PHOTOS=[
+"https://pro.carda.in/jsk_data/services/srv_687_1792660942_1.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792660942_0.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792660854_5.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792660854_4.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792660854_3.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792660854_2.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792660853_1.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792660853_0.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792154334_16.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792154334_15.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792154334_14.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792154333_8.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792154333_7.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792154333_6.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792154333_5.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792154333_1.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1792154333_0.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1791109743_3.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1791109743_2.webp",
+"https://pro.carda.in/jsk_data/services/srv_687_1791109743_1.webp"
+];
+
+document.getElementById("herobg").style.backgroundImage='url("'+PHOTOS[2]+'")';
+
+const g=document.getElementById("grid");
+PHOTOS.forEach(p=>{
+  g.insertAdjacentHTML("beforeend",`<div class="item rv"><img src="${p}" loading="lazy" alt="SHIV NX men’s wear"><div class="ov"><a href="https://wa.me/917620643048?text=Hi%20SHIV%20NX%2C%20I%20want%20to%20enquire%20about%20this%20item" target="_blank" rel="noopener">Enquire Now</a></div></div>`);
+});
+document.getElementById("aboutImg").src=PHOTOS[0];
+
+// marquee
+const t="EXCLUSIVE MEN’S WEAR ✦ LATEST COLLECTION ✦ PREMIUM STYLES ✦ BEST PRICES ✦ SHOP NOW ✦ ";
+document.getElementById("mq").textContent=t.repeat(8);
+
+// hours
+const d=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],td=new Date().getDay();
+document.getElementById("hrs").innerHTML=d.slice(1).concat(d[0]).map(x=>`<div class="row ${x===d[td]?'today':''}"><span>${x}</span><span>10:30 AM – 10:00 PM</span></div>`).join("");
+document.getElementById("yr").textContent=new Date().getFullYear();
+
+// nav
+const nav=document.getElementById("nav"),links=document.getElementById("links");
+addEventListener("scroll",()=>nav.classList.toggle("s",scrollY>50));
+document.getElementById("menu").onclick=()=>links.classList.toggle("o");
+links.querySelectorAll("a").forEach(a=>a.onclick=()=>links.classList.remove("o"));
+
+// reveal
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add("on");io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+</script>
+</body>
+  </html>
